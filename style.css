@@ -131,6 +131,15 @@ background: linear-gradient(31deg, rgba(2,0,36,1) 0%, rgba(242,199,129,1) 0%, rg
   #logo_image{
     width:100px; height:100px; object-fit: cover;
   }
+  
+}
+
+@media (max-width: 374px) {
+  .banner.container.mt-5 h1{
+    font-size: smaller;
+  }
+
+  
 }
 @media (max-width: 767px) {
     .banner.container.mt-5 .img_banner{
@@ -146,6 +155,7 @@ background: linear-gradient(31deg, rgba(2,0,36,1) 0%, rgba(242,199,129,1) 0%, rg
     #logo_image{
       visibility: hidden; 
     }
+
 
   }
 
@@ -172,6 +182,15 @@ background: linear-gradient(31deg, rgba(2,0,36,1) 0%, rgba(242,199,129,1) 0%, rg
   /* background-image: url(/image/watermelon.png); */
 }
 
+.card.btn_seemore.border-none:hover {
+  opacity: 0.8;
+  box-shadow: 10px 10px 10px 10px rgb(172, 154, 132);
+  }
+
+  .card.btn_gosomewhere:hover{
+    opacity: 0.8;
+  box-shadow: 10px 10px 10px 10px rgb(172, 154, 132);
+  }
 /* list food */
 /* .list_food.container img{
   -webkit-transform: scale(1.5);
@@ -475,8 +494,8 @@ transition: .3s ease-in-out;
  .footer__sayhey{
   padding-top: 20px;
   background-color: rgb(50, 56, 52);
-  color: rgb(77, 133, 77);
-  font-weight: lighter;
+  color: rgb(203, 253, 180);
+  font-weight: bold;
   width: 100%;
 
 }
